@@ -1,40 +1,44 @@
 # 🎨 AI-Art Sentiment Analysis  
-### _Analyzing YouTube comments on AI-generated art using NLP & Machine Learning_
+> Analyzing public perception of AI-generated art using NLP & Machine Learning  
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![NLP](https://img.shields.io/badge/NLP-Text_Analysis-orange?logo=googlecolab)
+![AI Art](https://img.shields.io/badge/AI_Art-Ethics_&_Creativity-purple)
+![Logistic Regression](https://img.shields.io/badge/Model-Logistic_Regression-success)
 
 ---
 
-## 🧭 Project Overview
-This project explores how audiences perceive **AI-generated art** by analyzing YouTube comment sentiments.  
-It combines **text preprocessing**, **natural language processing (NLP)**, and **machine learning classification** to evaluate how people express positive, negative, or neutral emotions toward AI art.  
+## 🧭 Overview
+This project investigates how audiences react to **AI-generated art** by analyzing YouTube comments through Natural Language Processing (NLP) and Machine Learning.  
+It applies **text cleaning, TF-IDF vectorization**, and a **Logistic Regression classifier** to predict whether a comment expresses **positive, negative, or neutral sentiment**.  
 
-This notebook was built as part of a broader research and innovation initiative connecting **technology, creativity, and user sentiment**, applying the same analytical rigor used in QA automation and data analytics fields.
+💡 The project highlights not just technical modeling, but also **ethical and emotional perspectives** in how people perceive AI-generated creativity.
 
 ---
 
-## 🧰 Tools & Libraries
-| Category | Libraries Used |
-|-----------|----------------|
-| Data Handling | `pandas`, `numpy` |
-| Visualization | `matplotlib`, `seaborn`, `wordcloud` |
+## 🧰 Tools & Technologies
+| Category | Libraries |
+|-----------|------------|
+| Data Processing | `pandas`, `numpy` |
 | NLP | `nltk`, `textblob`, `scikit-learn` |
-| ML Model | `TF-IDF` + `Logistic Regression` |
-| IDE | Google Colab / Jupyter Notebook |
+| Visualization | `matplotlib`, `seaborn`, `wordcloud` |
+| Model | TF-IDF + Logistic Regression |
+| IDE / Environment | Google Colab, Jupyter Notebook |
 
 ---
 
-## 📂 Repository Structure
+## 📂 Project Structure
 ```bash
 AI-Art-Sentiment-Analysis/
 │
 ├── data/
-│   └── AI_Art_Comments_Clean.xlsx        # Cleaned YouTube comment dataset
+│   └── AI_Art_Comments_Clean.xlsx          # Clean YouTube comment data
 │
 ├── scripts/
-│   └── ai_art_sentiment.py               # Helper script for sentiment preprocessing
+│   └── ai_art_sentiment.py                 # Script for text cleaning and feature extraction
 │
-├── visuals/                              # Folder for plots & generated visuals
+├── visuals/                                # Folder for generated plots and wordclouds
 │
-├── AI_Art_Sentiment_Analysis.ipynb       # Main analysis notebook
-├── requirements.txt                      # Libraries used
-└── README.md                             # Project documentation
-
+├── AI_Art_Sentiment_Analysis.ipynb         # Main analysis notebook
+├── requirements.txt                        # Dependencies
+└── README.md                               # Documentation
