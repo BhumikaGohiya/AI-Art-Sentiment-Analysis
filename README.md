@@ -42,8 +42,10 @@ AI-Art-Sentiment-Analysis/
 ├── AI_Art_Sentiment_Analysis.ipynb         # Main analysis notebook
 ├── requirements.txt                        # Dependencies
 └── README.md                               # Documentation
-----
-## 🧠 Methodology
+
+----------
+
+## 🧠 Methodology  
 
 | Step | Description |
 |------|--------------|
@@ -51,4 +53,7 @@ AI-Art-Sentiment-Analysis/
 | **2️⃣ Sentiment Labeling** | Initially labeled comments using **TextBlob** polarity scores. Then trained a **Logistic Regression** classifier for refined sentiment prediction. |
 | **3️⃣ Feature Engineering** | Transformed text into numerical features using **TF-IDF Vectorization** to capture important terms and weighting. |
 | **4️⃣ Evaluation** | Measured performance with **Accuracy**, **F1-Score**, and **Classification Report**. Created visualizations using **matplotlib** and **seaborn**. |
+
+--------
+
 
