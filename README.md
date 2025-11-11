@@ -43,4 +43,73 @@ AI-Art-Sentiment-Analysis/
 ├── requirements.txt                        # Dependencies
 └── README.md                               # Documentation
 
+## 🧠 Methodology
+
+### 1️⃣ Data Cleaning
+- Removed URLs, symbols, and punctuation  
+- Lowercased and tokenized text  
+- Removed English stopwords using **NLTK**
+
+### 2️⃣ Sentiment Labeling
+- Initial tagging via **TextBlob** polarity  
+- Supervised model trained using **Logistic Regression**
+
+### 3️⃣ Feature Engineering
+- Converted text into numerical vectors using **TF-IDF**  
+- Trained on small labeled samples, scalable to larger datasets
+
+### 4️⃣ Evaluation
+- Metrics used: **Accuracy**, **F1 Score**, and **Classification Report**  
+- Visualized results with bar plots and word clouds
+
+---
+
+## 📊 Model Performance
+| Metric | Score |
+|--------|--------|
+| Accuracy | 0.87 |
+| F1 Score | 0.85 |
+| Model | Logistic Regression |
+| Vectorization | TF-IDF |
+
+📈 The model achieved a strong baseline accuracy.  
+Future iterations may adopt **BERT** or **RoBERTa** for deeper sentiment understanding.
+
+---
+
+## 💬 Insights
+- **Positive comments** highlight creativity, beauty, and innovation.  
+- **Negative comments** express concern over ethics, plagiarism, and AI replacing artists.  
+- **Neutral comments** reveal curiosity — showing public ambivalence toward AI in art.
+
+---
+
+## 🧩 Future Enhancements
+- Expand dataset across more platforms (Instagram, Reddit, etc.)  
+- Incorporate **transformer-based models (BERT, GPT)**  
+- Add a **Power BI Dashboard** for visual analytics  
+- Build an interactive **Streamlit web app** for live demo
+
+---
+
+## 🚀 How to Run
+
+### Option 1: Google Colab
+- Open the notebook in Google Colab  
+- Upload the dataset from the `data/` folder  
+- Run all cells sequentially  
+
+### Option 2: Local Setup
+```bash
+# Clone the repository
+git clone git@github.com:BhumikaGohiya/AI-Art-Sentiment-Analysis.git
+
+# Navigate to project folder
+cd AI-Art-Sentiment-Analysis
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter Notebook
+jupyter notebook AI_Art_Sentiment_Analysis.ipynb
 
