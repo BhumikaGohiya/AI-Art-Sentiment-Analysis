@@ -42,7 +42,7 @@ AI-Art-Sentiment-Analysis/
 ├── AI_Art_Sentiment_Analysis.ipynb         # Main analysis notebook
 ├── requirements.txt                        # Dependencies
 └── README.md                               # Documentation
-
+----
 ## 🧠 Methodology
 
 | Step | Description |
