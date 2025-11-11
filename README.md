@@ -43,29 +43,4 @@ AI-Art-Sentiment-Analysis/
 ├── requirements.txt                        # Dependencies
 └── README.md                               # Documentation
 
-🧠 Methodology
-1️⃣ Data Cleaning
 
-Removed URLs, symbols, and punctuation
-
-Lowercased and tokenized text
-
-Removed English stopwords using NLTK
-
-2️⃣ Sentiment Labeling
-
-Initial tagging via TextBlob polarity
-
-Supervised model trained using Logistic Regression
-
-3️⃣ Feature Engineering
-
-Converted text to numerical vectors using TF-IDF
-
-Trained on small labeled samples, later scalable to full datasets
-
-4️⃣ Evaluation
-
-Used metrics: Accuracy, F1 Score, and Classification Report
-
-Visualized results with bar plots and word clouds
